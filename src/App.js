@@ -1,9 +1,14 @@
 import "./App.css";
-import HomePage from "./pages/Homepage";
-import Counterpage from "./pages/Counterpage";
+import { Secondscounter } from "./components/Secondscounter";
+import CounterPage from "./pages/CounterPage";
 
 const App = () => {
-  return <CounterPage />;
+  return (
+    <>
+      <CounterPage />
+      <Secondscounter />
+    </>
+  );
 };
 
 export default App;
